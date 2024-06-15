@@ -1,0 +1,83 @@
+﻿@model IEnumerable<UserManagement.Models.UserModeClass>
+
+
+@{
+    ViewData["Title"] = "UserList";
+}
+
+<h1>UserList</h1>
+
+<p>
+    <a asp-action="AddOrEdit"><button class="btn btn-success">Create New</button></a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.profileImage)
+            </th>
+            @if (ViewData["isEmployee"] == null)
+            {
+                <th>Action</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                    <img src="~/ProfilePicture/@item.profileImage" alt="profile-picture" width="50" height="50" />
+              </td>
+            @if(ViewData["isEmployee"] == null)
+            {
+                 <td>
+                        <a asp-action="AddOrEdit" asp-route-id="@item.UserId"><button class="btn btn-primary">Edit</button></a> |
+                        <a asp-action="Delete" asp-route-id="@item.UserId"><button class="btn btn-danger">Delete</button></a>
+                 </td>
+            }
+        </tr>
+}
+    </tbody>
+</table>

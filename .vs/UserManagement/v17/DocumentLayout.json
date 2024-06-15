@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|c:\\users\\yash\\onedrive\\desktop\\new folder (6)\\new folder\\usermanagement\\usermanagement\\views\\home\\updateprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\updateprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|c:\\users\\yash\\onedrive\\desktop\\new folder (6)\\new folder\\usermanagement\\usermanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|c:\\users\\yash\\onedrive\\desktop\\new folder (6)\\new folder\\usermanagement\\usermanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|c:\\users\\yash\\onedrive\\desktop\\new folder (6)\\new folder\\usermanagement\\usermanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|c:\\users\\yash\\onedrive\\desktop\\new folder (6)\\new folder\\usermanagement\\usermanagement\\views\\home\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCABCDB4-04C4-48DB-9F5B-CCDD896E9F3F}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\views\\home\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YASH_ONEDRIVE_DOCUMENTS_USER.MDF/True/SqlTable/dbo.UserDetails.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T13:49:32.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Views\\Home\\UpdateProfile.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\UpdateProfile.cshtml",
+              "ToolTip": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Views\\Home\\UpdateProfile.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Home\\UpdateProfile.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T13:37:55.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T13:37:44.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.UserDetails [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YASH_ONEDRIVE_DOCUMENTS_USER.MDF/True/SqlTable/dbo.UserDetails.sql",
+              "ToolTip": "dbo.UserDetails [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-15T13:24:57.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Views\\Home\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\AddOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Views\\Home\\AddOrEdit.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Home\\AddOrEdit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T11:37:20.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\YASH\\OneDrive\\Desktop\\New folder (6)\\New folder\\UserManagement\\UserManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UserManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHkBAAAAAAAAAAAowKwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T06:39:22.184Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

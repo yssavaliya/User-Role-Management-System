@@ -1,0 +1,66 @@
+﻿@model UserManagement.Models.UserModeClass
+
+@{
+    ViewData["Title"] = "User Dashboard";
+    ViewData["isLogin"] = ViewBag.isLogin;
+    var isAdmin = ViewBag.Role == "Admin";
+    var isEmployee = ViewBag.Role == "Employee";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="@Url.Content("~/ProfilePicture/" + Model.profileImage)" alt="Profile Image">
+                <div class="card-body text-center">
+                    <h4 class="card-title">@Model.Name</h4>
+                    <p class="card-text">@Model.Role</p>
+                    <button class="btn btn-primary" onclick="window.location.href='@Url.Action("UpdateProfile", "Home")'">Update Profile</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Profile Details</h3>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-3">Username</dt>
+                        <dd class="col-sm-9">@Model.Username</dd>
+
+                        <dt class="col-sm-3">Email</dt>
+                        <dd class="col-sm-9">@Model.Email</dd>
+
+                        <dt class="col-sm-3">Gender</dt>
+                        <dd class="col-sm-9">@Model.Gender</dd>
+
+                        <dt class="col-sm-3">Age</dt>
+                        <dd class="col-sm-9">@Model.Age</dd>
+
+                        <dt class="col-sm-3">City</dt>
+                        <dd class="col-sm-9">@Model.City</dd>
+                    </dl>
+                    @if (isAdmin)
+                    {
+                            <div class="alert alert-info" role="alert">
+                                You have administrative privileges.
+                            </div>
+                    }
+                    @if (isEmployee)
+                    {
+                            <div class="alert alert-info" role="alert">
+                                You are logged in as an employee.
+                            </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+        <script>
+            // You can add any custom JavaScript here if needed
+        </script>
+}
