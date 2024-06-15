@@ -502,3 +502,4 @@ C:\Users\YASH\OneDrive\Desktop\New folder (6)\New folder\UserManagement\UserMana
 C:\Users\YASH\OneDrive\Desktop\New folder (6)\New folder\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.pdb
 C:\Users\YASH\OneDrive\Desktop\New folder (6)\New folder\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.genruntimeconfig.cache
 C:\Users\YASH\OneDrive\Desktop\New folder (6)\New folder\UserManagement\UserManagement\obj\Debug\net8.0\ref\UserManagement.dll
+C:\Users\YASH\OneDrive\Desktop\New folder (6)\New folder\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.sourcelink.json

@@ -45,8 +45,7 @@
               "RelativeToolTip": "UserManagement\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T13:49:32.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T13:49:32.88Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "UserManagement\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T13:37:44.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T13:37:44.173Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YASH_ONEDRIVE_DOCUMENTS_USER.MDF/True/SqlTable/dbo.UserDetails.sql",
               "ToolTip": "dbo.UserDetails [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-15T13:24:57.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T13:24:57.837Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "UserManagement\\Views\\Home\\AddOrEdit.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T11:37:20.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T11:37:20.268Z"
             },
             {
               "$type": "Document",
@@ -107,8 +103,7 @@
               "RelativeToolTip": "UserManagement\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAHkBAAAAAAAAAAAowKwBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T06:39:22.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T06:39:22.184Z"
             }
           ]
         }
