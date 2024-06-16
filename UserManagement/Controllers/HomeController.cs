@@ -36,7 +36,6 @@ namespace UserManagement.Controllers
 
             if (userWithPassword != null && userWithPassword.Password == loginModel.Password)
             {
-                // Set session variables for login
                 HttpContext.Session.SetString("userID", userWithPassword.UserId.ToString());
                 HttpContext.Session.SetString("role", userWithPassword.UserModeClass.Role);
                 HttpContext.Session.SetString("username", userWithPassword.UserModeClass.Username);
@@ -295,10 +294,6 @@ namespace UserManagement.Controllers
 
 public IActionResult UpdateProfile()
 {
-
-
-
-    // Get user ID from session
     var userIdSession = HttpContext.Session.GetString("userID");
     if (string.IsNullOrEmpty(userIdSession))
     {
@@ -310,15 +305,12 @@ public IActionResult UpdateProfile()
         return RedirectToAction("Login");
     }
 
-    // Fetch user details from the database
     var user = _context.UserDetails.FirstOrDefault(u => u.UserId == userId);
 
     if (user == null)
     {
         return NotFound();
     }
-
-    // Populate UserClass with user data
     var userModel = new UserClass
     {
         UserId = user.UserId,
@@ -328,7 +320,7 @@ public IActionResult UpdateProfile()
         Age = user.Age,
         City = user.City,
         Username = user.Username,
-        Role = user.Role // Assuming Role is fetched from the database for the current user
+        Role = user.Role 
     };
 
     return View(userModel);
@@ -378,19 +370,16 @@ public IActionResult UpdateProfile()
                 newFileName = Guid.NewGuid().ToString() + "_" + userclass.profileImage.FileName;
                 String filePath = Path.Combine(uploadFolder, newFileName);
         
-                // Ensure the directory exists
                 if (!Directory.Exists(uploadFolder))
                 {
                     Directory.CreateDirectory(uploadFolder);
                 }
 
-                // Save the new profile image
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
                     userclass.profileImage.CopyTo(fileStream);
                 }
 
-                // Delete old profile image if it exists and is not the default image
                 if (!string.IsNullOrEmpty(user.profileImage))
                 {
                     string oldPath = Path.Combine(environment.WebRootPath, "ProfilePicture", user.profileImage);
@@ -401,7 +390,6 @@ public IActionResult UpdateProfile()
                 }
             }
 
-                    // Update user details
                     user.Name = userclass.Name;
                     user.Email = userclass.Email;
                     user.Gender = userclass.Gender;
